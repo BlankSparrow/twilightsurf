@@ -9,11 +9,6 @@ html{
 	top:0px;
 	bottom:0px;
 	height:100%;
-
-	-webkit-user-select: none;  /* Chrome all / Safari all */
--moz-user-select: none;     /* Firefox all */
--ms-user-select: none;      /* IE 10+ */
-user-select: none;          /* Likely future */    
 }
 
 body{
@@ -42,4 +37,11 @@ body{
 	padding-top: 7px;
 	margin: 20px;
 
+}
+
+.no-copy p,h1 {
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */
 }

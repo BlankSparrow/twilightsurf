@@ -1,0 +1,40 @@
+html{
+	background: #303030;
+	background: -webkit-linear-gradient(left top, #d0eded, #d0b0a0);
+	background: -o-linear-gradient(bottom right, #d0eded, #d0b0a0); /* For Opera 11.1 to 12.0 */
+        background: -moz-linear-gradient(bottom right , #d0eded, #d0b0a0); /* For Firefox 3.6 to 15 */
+        background: linear-gradient(to bottom right, #d0eded, #d0b0a0); /* Standard syntax */
+	left:0px;
+	right:0px;
+	top:0px;
+	bottom:0px;
+	height:100%;
+}
+
+body{
+	background-color:rgba(0,0,0,0);
+}
+
+.title-box{
+	border-color: #f4f6f7;
+	padding: 20px;
+	padding-top: 7px;
+	margin: 20px;
+	border-style:solid;
+	border-width:7px;
+}
+
+.title-text{
+	font: 20px "Montserrat", sans-serif;
+	color: #f4f6f7;
+}
+
+.sub-box{
+	/*border-color: #f4f6f7;
+	border-style:solid;
+	border-width:7px;*/
+	padding: 20px;
+	padding-top: 7px;
+	margin: 20px;
+
+}

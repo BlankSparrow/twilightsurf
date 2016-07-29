@@ -46,6 +46,6 @@ body{
   user-select: none;          /* Likely future */
 }
 
-.no-copy:hover{
+p,h1:hover{
 	cursor: default;
 }

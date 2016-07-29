@@ -12,6 +12,7 @@ html{
 }
 
 body{
+	oncontextmenu="return false;"
 	background-color:rgba(0,0,0,0);
 }
 

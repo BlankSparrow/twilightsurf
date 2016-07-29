@@ -12,9 +12,10 @@ html{
 }
 
 body{
-	oncontextmenu="return false;"
 	background-color:rgba(0,0,0,0);
 }
+
+
 
 .title-box{
 	border-color: #f4f6f7;

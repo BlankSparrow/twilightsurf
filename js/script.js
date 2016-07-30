@@ -27,7 +27,6 @@ $(document).ready(function(){
  var messages = [
     "<p>Life is a succession of lessons which must be lived to be understood.</p>",
     "<p>You must do the thing you think you cannot do.</p><p></p>",
-    "<p>Start where you are.</p><p></p><p></p>",
     "<p>Start where you are.</p><p>Use what you have.</p><p>Do what you can.</p>",
     "<p>Even if you fall on your face, you’re still moving forward.</p><p></p>",
     "<p>You are never to old to set another goal or to dream a new dream.</p>",

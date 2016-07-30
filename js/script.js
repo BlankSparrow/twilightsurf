@@ -61,7 +61,7 @@ $(document).ready(function(){
     "<p></p><p></p><p></p>",
     "<p></p><p></p><p></p>",
     "<p></p><p></p><p></p>",
-    "<p></p><p></p><p></p>"*/
+    "<p></p><p></p><p></p>"
     ];
 
 function get_text(){

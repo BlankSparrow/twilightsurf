@@ -34,7 +34,7 @@ $(document).ready(function(){
     "<p>If you are going through hell, keep going.</p><p></p>",
     "<p>Life is not about finding yourself.</p><p>Life is about creating yourself.</p><p></p>",
     "<p>You can do it!</p><p></p><p></p>",
-    "<p>You are sparlier than a discoball.</p><p></p><p></p>",
+    "<p>You are sparklier than a discoball.</p><p></p><p></p>",
     "<p>You can do it.</p><p></p><p></p>",
     "<p>You got this.</p><p></p><p></p>"/*,
     "<p></p><p></p><p></p>",

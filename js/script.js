@@ -3,7 +3,7 @@ $(document).ready(function(){
     var init = true;
     var clickDisabled = false;
     $(".sub-box").hide();
-    $("body").click(function(){
+    $("body").mousedown(function(){
             if (clickDisabled)
                 return;
 

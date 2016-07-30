@@ -36,7 +36,7 @@ $(document).ready(function(){
     "<p>You can do it!</p><p></p><p></p>",
     "<p>You are sparlier than a discoball.</p><p></p><p></p>",
     "<p>You can do it.</p><p></p><p></p>",
-    "<p>You got this.</p><p></p><p></p>",
+    "<p>You got this.</p><p></p><p></p>"/*,
     "<p></p><p></p><p></p>",
     "<p></p><p></p><p></p>",
     "<p></p><p></p><p></p>",
@@ -61,7 +61,7 @@ $(document).ready(function(){
     "<p></p><p></p><p></p>",
     "<p></p><p></p><p></p>",
     "<p></p><p></p><p></p>",
-    "<p></p><p></p><p></p>"
+    "<p></p><p></p><p></p>"*/
     ];
 
 function get_text(){

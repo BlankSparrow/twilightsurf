@@ -1,9 +1,10 @@
 html{
+	position: absolute;
 	background: #303030;
-	background: -webkit-linear-gradient(left top, #C7E8E0,#D4E8D9, #F0AAC1);
-	background: -o-linear-gradient(bottom right, #C7E8E0,#D4E8D9, #F0AAC1); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom right , #C7E8E0,#D4E8D9, #F0AAC1); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right, #C7E8E0,#D4E8D9, #F0AAC1); /* Standard syntax */
+	background: -webkit-linear-gradient(left top, #b2aac4,#ffdde1, #F7E9BB);
+	background: -o-linear-gradient(bottom right, #b2aac4,#ffdde1, #F7E9BB); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right , #b2aac4,#ffdde1, #F7E9BB); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #b2aac4,#ffdde1, #F7E9BB); /* Standard syntax */
 	left:0px;
 	right:0px;
 	top:0px;
@@ -13,20 +14,34 @@ html{
 }
 
 body{
+	position: fixed;
 	background-color:rgba(0,0,0,0);
-	background: -webkit-linear-gradient(right top, rgba(255,0,255,0.1),rgba(0,0,0,0),rgba(0,0,0,0), rgba(255,255,0,0.1));
-	background: -o-linear-gradient(bottom left, rgba(255,0,255,0.1),rgba(0,0,0,0),rgba(0,0,0,0), rgba(255,255,0,0.1)); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(bottom left , rgba(255,0,255,0.1),rgba(0,0,0,0),rgba(0,0,0,0), rgba(255,255,0,0.1)); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom left, rgba(255,0,255,0.1),rgba(0,0,0,0),rgba(0,0,0,0), rgba(255,255,0,0.1)); /* Standard syntax */
-	left:0px;
+	background: -webkit-linear-gradient(right top, rgba(29,43,99,0.2),rgba(19,80,88,0.1),rgba(19,80,88,0.1), rgba(248,205,218,0.5));
+	background: -o-linear-gradient(bottom left, rgba(29,43,99,0.2),rgba(19,80,88,0.1),rgba(19,80,88,0.1), rgba(248,205,218,0.5)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom left , rgba(29,43,99,0.2),rgba(19,80,88,0.1),rgba(19,80,88,0.1), rgba(248,205,218,0.5)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom left, rgba(29,43,99,0.2),rgba(19,80,88,0.1),rgba(19,80,88,0.1), rgba(248,205,218,0.5)); /* Standard syntax */
+	left:-10%;
 	height:100%;
-	width:100%;
+	width:120%;
 }
 
-#wrapper {
-  width: 60%;     /* specify a width! */
-  margin: 0 auto; /* center */
+@media(max-width:767px) {
+    #wrapper {
+		padding-top: 5vw;
+  		width: 95vw;     /* specify a width! */
+ 	 	margin: 0 auto; /* center */
+	}
 }
+
+@media(min-width:768px) {
+    #wrapper {
+		padding-top: 38px;
+  		width: 728px;     /* specify a width! */
+  		margin: 0 auto; /* center */
+	}
+}
+
+
 
 .btn-cust  {
 	text-transform: uppercase;
@@ -51,35 +66,22 @@ body{
   -moz-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   border: 1px solid #42DCA3;
-  color: black;
+
   outline-color: black;
   background-color: #42DCA3;
   outline:0 !important; ;
   
 }
 
-.title-box{
-	border-color: #f4f6f7;
-	padding: 20px;
-	padding-top: 7px;
 
-	border-style:solid;
-	border-width:7px;
-	width: 100%;
-}
-
-.title-text{
-	font: 20px "Montserrat", sans-serif;
-	color: #f4f6f7;
-}
 
 .sub-box{
 	/*border-color: #f4f6f7;
 	border-style:solid;
 	border-width:7px;*/
 	padding: 20px;
-	padding-top: 7px;
-	margin: 20px;
+	padding-top: 40px;
+	width: 100%;
 
 }
 
@@ -94,10 +96,63 @@ p,h1:hover{
 	cursor: default;
 }
 
-h1 {
-  font-size: 5.9vw;
+@media(max-width:767px) {
+
+p{
+	font: 3.9vw "Montserrat", sans-serif;
+  color: #f4f6f7;
 }
 
-p {
-  font-size: 3.9vw;
+.title-box{
+	border-color: #f4f6f7;
+
+	border-style:solid;
+	border-width:3vw;
+	width: 100%;
+	
+}
+
+ .title-box   h1 {
+  font: 16vw "Montserrat", sans-serif;
+  color: #f4f6f7;
+}
+
+.title-box p {
+	color: #f4f6f7;
+	font-size: 6.2vw;
+  line-height: 2vw;
+  padding-bottom: 6vw;
+	}
+}
+
+@media(min-width:768px) {
+
+p{
+	font: 29.5px "Montserrat", sans-serif;
+  color: #f4f6f7;
+}
+
+.title-box{
+	border-color: #f4f6f7;
+
+	border-style:solid;
+	border-width:23px;
+	width: 100%;
+	
+}
+
+ .title-box   h1 {
+  font: 123px "Montserrat", sans-serif;
+  color: #f4f6f7;
+}
+
+.title-box p {
+	font-size: 47.5px;
+  line-height: 2vw;
+  padding-bottom: 6vw;
+  color: #f4f6f7;
+	}
+}
+
+.sub-box{
 }

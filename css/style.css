@@ -26,6 +26,14 @@ body{
 	width:120%;
 }
 
+.star-box{
+	position: fixed;
+	left:0%;
+	top:0%;
+	height:100%;
+	width:100%;
+}
+
 @media(max-width:767px) {
     #wrapper {
 		padding-top: 50vh;
@@ -174,4 +182,11 @@ p{
 		margin-top: -124px;
 		}
 	}
+}
+
+.star{
+	position: absolute;
+	text-align: center;
+	top: 40vh;
+	left: 50vw;
 }
